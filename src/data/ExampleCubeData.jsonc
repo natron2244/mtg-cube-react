@@ -1,0 +1,73 @@
+{
+  "name": "My Cube",
+  "description": "My Awesome Cube",
+  "cards": [
+    {
+      "id": 9485,
+      "name": "Card Name",
+      // ... then some more card data ..
+      "archetypes": [
+        {
+          "id": 394,
+          "name": "Counters",
+          "rating": {
+            "id": 1,
+            "label": "A",
+            "value": 5
+          }
+        },
+        {
+          "id": 395,
+          "name": "Artifacts",
+          "rating": {
+            "id": 3,
+            "label": "+B",
+            "value": 3
+          }
+        }
+      ],
+      "labels": [
+        {
+          "id": 1,
+          "label": "Payoff",
+          "archetypes": { /* Optionally scoped, else every where */ }
+        }
+      ]
+    }
+  ],
+  "archetypes": [
+    {
+      "id": 394,
+      "name": "Counters",
+      "description": "Put +1/+1 counters on them"
+    },
+    {
+      "id": 395,
+      "name": "Artifacts",
+      "description": "The more you have the better"
+    }
+  ],
+  "ratings": [
+    {
+      "id": 0,
+      "label": "+A",
+      "value": 7
+    },
+    {
+      "id": 1,
+      "label": "A",
+      "value": 5
+    },
+    {
+      "id": 2,
+      "label": "-A",
+      "value": 4
+    },
+    {
+      "id": 0,
+      "label": "+B",
+      "value": 3
+    }
+    // ... rest of ratings
+  ]
+}

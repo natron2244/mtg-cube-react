@@ -1,0 +1,131 @@
+{
+  "name": "My Cube",
+  "description": "My Awesome Cube",
+  "cards": [
+    {
+      "id": "d99a9a7d-d9ca-4c11-80ab-e39d5943a315",
+      "name": "Asmoranomardicadaistinaculdacar",
+      "imageUris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/d/9/d99a9a7d-d9ca-4c11-80ab-e39d5943a315.jpg?1632831210",
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/9/d99a9a7d-d9ca-4c11-80ab-e39d5943a315.jpg?1632831210",
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/d/9/d99a9a7d-d9ca-4c11-80ab-e39d5943a315.jpg?1632831210",
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/d/9/d99a9a7d-d9ca-4c11-80ab-e39d5943a315.png?1632831210",
+        "artCrop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/d/9/d99a9a7d-d9ca-4c11-80ab-e39d5943a315.jpg?1632831210",
+        "borderCrop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/d/9/d99a9a7d-d9ca-4c11-80ab-e39d5943a315.jpg?1632831210"
+      },
+      "archetypes": [
+        {
+          "id": 0,
+          "name": "Counters",
+          "rating": {
+            "id": 1,
+            "label": "A"
+          }
+        },
+        {
+          "id": 1,
+          "name": "Artifacts",
+          "rating": {
+            "id": 3,
+            "label": "+B"
+          }
+        }
+      ],
+      "labels": [
+        {
+          "id": 1,
+          "label": "Payoff",
+          "archetypes": [{
+            "id": 1,
+            "name": "Artifacts"
+          }]
+        }
+      ]
+    }
+  ],
+  "archetypes": [
+    {
+      "id": "0",
+      "name": "Counters",
+      "description": "Put +1/+1 counters on them"
+    },
+    {
+      "id": "1",
+      "name": "Artifacts",
+      "description": "The more you have the better"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "0",
+      "label": "+A",
+      "value": 16
+    },
+    {
+      "id": "1",
+      "label": "A",
+      "value": 14
+    },
+    {
+      "id": "2",
+      "label": "-A",
+      "value": 13
+    },
+    {
+      "id": "3",
+      "label": "+B",
+      "value": 11
+    },
+    {
+      "id": "4",
+      "label": "B",
+      "value": 10
+    },
+    {
+      "id": "5",
+      "label": "-B",
+      "value": 9
+    },
+    {
+      "id": "6",
+      "label": "+C",
+      "value": 7
+    },
+    {
+      "id": "7",
+      "label": "C",
+      "value": 6
+    },
+    {
+      "id": "8",
+      "label": "-C",
+      "value": 5
+    },
+    {
+      "id": "9",
+      "label": "+D",
+      "value": 3
+    },
+    {
+      "id": "10",
+      "label": "D",
+      "value": 2
+    },
+    {
+      "id": "11",
+      "label": "-D",
+      "value": 1
+    },
+    {
+      "id": "12",
+      "label": "F",
+      "value": 0
+    }
+  ],
+  "labels": [
+    {
+      "id": "0",
+      "label": "Payoff"
+    }
+  ]
+}
